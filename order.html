@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop — Оформление заказа</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TechShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html?id=1">Товар</a></li>
+          <li class="nav-item"><a class="nav-link active" href="order.html">Заказ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Главная</a></li>
+          <li class="breadcrumb-item text-white-50 active">Оформление заказа</li>
+        </ol>
+      </nav>
+      <h1>Оформление заказа</h1>
+      <p>Заполните форму — мы свяжемся с вами в течение 15 минут</p>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <div class="order-steps">
+      <div class="order-step active"><div class="order-step-num">1</div><div class="small">Контакты</div></div>
+      <div class="order-step"><div class="order-step-num">2</div><div class="small">Товар</div></div>
+      <div class="order-step"><div class="order-step-num">3</div><div class="small">Подтверждение</div></div>
+    </div>
+
+    <div class="alert alert-success d-none" id="successAlert" role="alert">
+      Спасибо! Ваша заявка отправлена. Мы скоро свяжемся с вами.
+    </div>
+    <div class="alert alert-danger d-none" id="errorAlert" role="alert">
+      Не удалось отправить заявку. Попробуйте ещё раз или свяжитесь с нами по телефону.
+    </div>
+
+    <div class="row g-4">
+      <div class="col-12 col-lg-7">
+        <form id="orderForm" class="card border-0 shadow-sm p-4" novalidate>
+          <h5 class="fw-bold mb-3">Контактные данные</h5>
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="orderName" class="form-label">Имя <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="orderName" name="name" required>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="orderEmail" class="form-label">E-mail <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" id="orderEmail" name="email" required>
+            </div>
+            <div class="col-12">
+              <label for="orderPhone" class="form-label">Телефон <span class="text-danger">*</span></label>
+              <div class="input-group">
+                <span class="input-group-text">+7</span>
+                <input type="tel" class="form-control" id="orderPhone" name="phone" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="orderProductSelect" class="form-label">Товар <span class="text-danger">*</span></label>
+              <select class="form-select" id="orderProductSelect" name="product" required></select>
+            </div>
+            <div class="col-12">
+              <label for="orderComment" class="form-label">Комментарий</label>
+              <textarea class="form-control" id="orderComment" name="comment" rows="3" placeholder="Например, удобное время для звонка"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="orderAgree" name="agree" required>
+                <label class="form-check-label" for="orderAgree">Согласен на обработку персональных данных</label>
+              </div>
+            </div>
+            <div class="col-12 mt-2">
+              <button type="submit" class="btn btn-primary btn-lg w-100">Отправить заявку</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <div class="order-summary">
+          <h5>Ваш заказ</h5>
+          <div id="orderSummaryBody"></div>
+          <div class="mt-3">
+            <div class="d-flex align-items-center gap-2 mb-2 text-muted small"><i class="bi bi-truck"></i><span>Бесплатная доставка от 5000 ₽</span></div>
+            <div class="d-flex align-items-center gap-2 mb-2 text-muted small"><i class="bi bi-shield-check"></i><span>Гарантия 12 месяцев</span></div>
+            <div class="d-flex align-items-center gap-2 text-muted small"><i class="bi bi-arrow-repeat"></i><span>Возврат в течение 14 дней</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="footer-brand">TechShop</div>
+          <p class="small">Магазин современной техники с быстрой доставкой и гарантией качества.</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Магазин</h6>
+          <a href="index.html">Главная</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="order.html">Заказ</a>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Помощь</h6>
+          <a href="#">Доставка</a>
+          <a href="#">Гарантия</a>
+          <a href="#">Возврат</a>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Контакты</h6>
+          <a href="tel:+78001234567"><i class="bi bi-telephone"></i>+7 (800) 123-45-67</a>
+          <a href="mailto:info@techshop.ru"><i class="bi bi-envelope"></i>info@techshop.ru</a>
+          <a href="#"><i class="bi bi-geo-alt"></i>Москва, ул. Ленина, 1</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 TechShop. Все права защищены.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

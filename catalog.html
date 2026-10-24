@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop — Каталог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TechShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link active" href="catalog.html">Каталог</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html?id=1">Товар</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Заказ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Главная</a></li>
+          <li class="breadcrumb-item text-white-50 active">Каталог</li>
+        </ol>
+      </nav>
+      <h1>Каталог товаров</h1>
+      <p>Выберите категорию и оформите заказ</p>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <div class="row g-4">
+      <aside class="col-12 col-lg-3">
+        <div class="catalog-sidebar">
+          <h5>Категории</h5>
+          <ul class="filter-list" id="categoryFilters"></ul>
+        </div>
+      </aside>
+
+      <div class="col-12 col-lg-9">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+          <div class="alert alert-info mb-0 py-2 px-3">Доставка по всей России · Бесплатно от 5000 ₽</div>
+          <select class="form-select w-auto" id="sortSelect" style="min-width: 220px;">
+            <option value="default">Сначала популярные</option>
+            <option value="price-asc">Цена: по возрастанию</option>
+            <option value="price-desc">Цена: по убыванию</option>
+            <option value="rating">По рейтингу</option>
+            <option value="new">Сначала новые</option>
+          </select>
+        </div>
+
+        <div class="row g-4" id="catalogGrid"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="footer-brand">TechShop</div>
+          <p class="small">Магазин современной техники с быстрой доставкой и гарантией качества.</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Магазин</h6>
+          <a href="index.html">Главная</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="order.html">Заказ</a>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Помощь</h6>
+          <a href="#">Доставка</a>
+          <a href="#">Гарантия</a>
+          <a href="#">Возврат</a>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Контакты</h6>
+          <a href="tel:+78001234567"><i class="bi bi-telephone"></i>+7 (800) 123-45-67</a>
+          <a href="mailto:info@techshop.ru"><i class="bi bi-envelope"></i>info@techshop.ru</a>
+          <a href="#"><i class="bi bi-geo-alt"></i>Москва, ул. Ленина, 1</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 TechShop. Все права защищены.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

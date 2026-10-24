@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop — Главная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TechShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html?id=1">Товар</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Заказ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section text-white text-center">
+    <div class="container">
+      <span class="hero-pill">Новая коллекция 2026 уже в наличии</span>
+      <h1 class="display-4 fw-bold mb-3">Техника, которая<br>работает на тебя</h1>
+      <p class="lead mb-4 opacity-75">Смартфоны, ноутбуки, консоли и гаджеты — с быстрой доставкой по России</p>
+      <div class="d-flex flex-wrap gap-2 justify-content-center">
+        <a href="catalog.html" class="btn btn-primary btn-lg px-4">Перейти в каталог</a>
+        <a href="#popular" class="btn btn-outline-light btn-lg px-4">Популярное</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="num">25+</div><div class="label">товаров</div></div>
+        <div class="hero-stat"><div class="num">12k</div><div class="label">клиентов</div></div>
+        <div class="hero-stat"><div class="num">24/7</div><div class="label">поддержка</div></div>
+        <div class="hero-stat"><div class="num">4.9</div><div class="label">рейтинг</div></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section class="my-5 fade-up">
+      <div class="section-title">
+        <h2>Категории товаров</h2>
+        <p>Найди то, что искал</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Смартфоны" class="category-card"><i class="bi bi-phone category-icon"></i><div class="category-name">Смартфоны</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Ноутбуки" class="category-card"><i class="bi bi-laptop category-icon"></i><div class="category-name">Ноутбуки</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Планшеты" class="category-card"><i class="bi bi-tablet category-icon"></i><div class="category-name">Планшеты</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Наушники" class="category-card"><i class="bi bi-headphones category-icon"></i><div class="category-name">Наушники</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Умные часы" class="category-card"><i class="bi bi-smartwatch category-icon"></i><div class="category-name">Умные часы</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Телевизоры" class="category-card"><i class="bi bi-tv category-icon"></i><div class="category-name">Телевизоры</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Игровые консоли" class="category-card"><i class="bi bi-controller category-icon"></i><div class="category-name">Консоли</div></a></div>
+        <div class="col-6 col-md-4 col-lg-3"><a href="catalog.html?category=Фотоаппараты" class="category-card"><i class="bi bi-camera category-icon"></i><div class="category-name">Фотоаппараты</div></a></div>
+      </div>
+    </section>
+
+    <section class="my-5 fade-up" id="popular">
+      <div class="section-title">
+        <h2>Популярные товары</h2>
+        <p>Лучшее по мнению наших покупателей</p>
+      </div>
+      <div class="row g-4" id="popularGrid"></div>
+    </section>
+
+    <section class="my-5 fade-up">
+      <div class="promo-banner">
+        <span class="promo-badge">Акция недели</span>
+        <h2>Скидки до 15% на технику Apple</h2>
+        <p class="mb-0">Только до конца месяца — MacBook, iPhone и AirPods по специальным ценам</p>
+        <a href="catalog.html" class="btn btn-light btn-lg mt-3 px-4 fw-semibold">Смотреть скидки</a>
+      </div>
+    </section>
+
+    <section class="my-5 fade-up">
+      <div class="section-title">
+        <h2>Почему выбирают нас</h2>
+        <p>Мы делаем покупки удобными</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-truck"></i></div>
+            <h5>Быстрая доставка</h5>
+            <p>Доставим заказ в течение 24 часов в любую точку города</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-shield-check"></i></div>
+            <h5>Гарантия качества</h5>
+            <p>Все товары сертифицированы и имеют гарантию 12 месяцев</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-chat-dots"></i></div>
+            <h5>Поддержка 24/7</h5>
+            <p>Наши специалисты всегда готовы помочь с выбором</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 fade-up">
+      <div class="section-title">
+        <h2>Отзывы клиентов</h2>
+        <p>Реальные истории наших покупателей</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">«Заказал MacBook Air — привезли на следующий день. Всё в идеальном состоянии, упаковка заводская. Однозначно рекомендую!»</p>
+            <div class="review-author">
+              <div class="review-avatar">АК</div>
+              <div>
+                <div class="review-name">Алексей Козлов</div>
+                <div class="review-role">Клиент с 2024</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">«Отличный магазин! Помогли выбрать наушники, подробно рассказали про все характеристики. Цены приятно удивили.»</p>
+            <div class="review-author">
+              <div class="review-avatar">МС</div>
+              <div>
+                <div class="review-name">Мария Соколова</div>
+                <div class="review-role">Клиент с 2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="review-card">
+            <div class="review-stars">★★★★☆</div>
+            <p class="review-text">«Брал PS5 — привезли быстро, всё работает. Единственное, хотелось бы больше способов оплаты. В остальном всё отлично.»</p>
+            <div class="review-author">
+              <div class="review-avatar">ДМ</div>
+              <div>
+                <div class="review-name">Дмитрий Морозов</div>
+                <div class="review-role">Клиент с 2025</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 fade-up">
+      <div class="cta-section">
+        <h2>Не пропустите скидки</h2>
+        <p class="opacity-75 mb-0">Подпишитесь на рассылку — присылаем только лучшие предложения</p>
+        <form class="cta-form" onsubmit="event.preventDefault(); this.reset(); alert('Спасибо за подписку!');">
+          <input type="email" class="form-control" placeholder="Ваш e-mail" required>
+          <button type="submit" class="btn btn-primary px-4">Подписаться</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="footer-brand">TechShop</div>
+          <p class="small">Магазин современной техники с быстрой доставкой и гарантией качества.</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Магазин</h6>
+          <a href="index.html">Главная</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="order.html">Заказ</a>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Помощь</h6>
+          <a href="#">Доставка</a>
+          <a href="#">Гарантия</a>
+          <a href="#">Возврат</a>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Контакты</h6>
+          <a href="tel:+78001234567"><i class="bi bi-telephone"></i>+7 (800) 123-45-67</a>
+          <a href="mailto:info@techshop.ru"><i class="bi bi-envelope"></i>info@techshop.ru</a>
+          <a href="#"><i class="bi bi-geo-alt"></i>Москва, ул. Ленина, 1</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 TechShop. Все права защищены.</div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="orderModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form data-modal-form>
+          <div class="modal-header">
+            <h5 class="modal-title">Заявка на консультацию</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="modalName" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="modalName" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="modalEmail" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="modalEmail" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="modalPhone" class="form-label">Телефон</label>
+              <input type="tel" class="form-control" id="modalPhone" name="phone" required>
+            </div>
+            <div class="mb-3">
+              <label for="modalProductSelect" class="form-label">Товар</label>
+              <select class="form-select" id="modalProductSelect" name="product"></select>
+            </div>
+            <div class="mb-3">
+              <label for="modalComment" class="form-label">Комментарий</label>
+              <textarea class="form-control" id="modalComment" name="comment" rows="2"></textarea>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="modalAgree" name="agree" required>
+              <label class="form-check-label" for="modalAgree">Согласен на обработку данных</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
