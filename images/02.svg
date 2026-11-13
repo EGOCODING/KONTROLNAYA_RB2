@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Нет фото: Смартфон iPhone 15">
+  <defs>
+    <linearGradient id="giphone15" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#giphone15)"/>
+  <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
+  <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
+  <g transform="translate(400 235)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+     stroke-opacity="0.55" stroke-width="7" stroke-linejoin="round">
+    <rect x="-62" y="-102" width="124" height="204" rx="20"/><line x1="-18" y1="-80" x2="18" y2="-80" stroke-width="6"/>
+  </g>
+  <text x="400" y="72" text-anchor="middle" font-size="22" font-weight="600"
+        letter-spacing="3" fill="#ffffff" opacity="0.55">СМАРТФОНЫ</text>
+  <text x="400" y="250" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Смартфон iPhone 15</text>
+  <text x="400" y="552" text-anchor="middle" font-size="21" fill="#ffffff"
+        opacity="0.45">Фото товара</text>
+</svg>

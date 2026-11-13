@@ -7,8 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
@@ -160,6 +160,67 @@
       </div>
     </section>
 
+    <section class="my-5 fade-up" id="faq">
+      <div class="section-title">
+        <h2>Частые вопросы</h2>
+        <p>Всё, что важно знать перед покупкой</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-lg-9">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqDelivery" aria-expanded="true" aria-controls="faqDelivery">
+                  Сколько идёт доставка?
+                </button>
+              </h3>
+              <div id="faqDelivery" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  По городу курьер привозит заказ в течение 24 часов, по России — от 2 до 5 дней. При сумме заказа от 5000 ₽ доставка бесплатная.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqWarranty" aria-expanded="false" aria-controls="faqWarranty">
+                  Какая гарантия на технику?
+                </button>
+              </h3>
+              <div id="faqWarranty" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  На все товары действует гарантия 12 месяцев с момента покупки. Она распространяется на заводские дефекты: мы бесплатно отремонтируем или заменим устройство.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqPayment" aria-expanded="false" aria-controls="faqPayment">
+                  Как можно оплатить заказ?
+                </button>
+              </h3>
+              <div id="faqPayment" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Банковской картой онлайн, наличными или картой при получении, а также по счёту для юридических лиц. Все способы доступны после подтверждения заявки.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqReturn" aria-expanded="false" aria-controls="faqReturn">
+                  Можно ли вернуть товар?
+                </button>
+              </h3>
+              <div id="faqReturn" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Да, в течение 14 дней с момента покупки при сохранении упаковки и заводских пломб. Деньги возвращаем на карту в течение 10 рабочих дней.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="my-5 fade-up">
       <div class="cta-section">
         <h2>Не пропустите скидки</h2>
@@ -245,7 +306,7 @@
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

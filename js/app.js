@@ -53,7 +53,7 @@ function productCardHTML(p, animate = false) {
     <div class="col-12 col-md-6 col-lg-4 ${animClass}">
       <div class="card h-100 shadow-sm">
         <img src="${p.image}" class="card-img-top" alt="${p.title}"
-             onerror="this.onerror=null;this.src='https://picsum.photos/seed/${p.article}/600/400'">
+             onerror="this.onerror=null;this.src='images/placeholder.svg'">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">${p.title}${badge}</h5>
           <div class="mb-2">${ratingHTML(p.rating)}${stockBadge}</div>
@@ -237,7 +237,7 @@ function renderProductDetail() {
       <div class="col-12 col-lg-6">
         <div class="product-gallery">
           <img src="${p.image}" class="product-main-img" alt="${p.title}"
-               onerror="this.onerror=null;this.src='https://picsum.photos/seed/${p.article}/600/500'">
+               onerror="this.onerror=null;this.src='images/placeholder.svg'">
         </div>
       </div>
       <div class="col-12 col-lg-6">
@@ -292,7 +292,7 @@ function updateOrderSummary() {
       <div class="d-flex gap-3 mb-3">
         <img src="${p.image}" alt="${p.title}"
              style="width:70px;height:70px;object-fit:cover;border-radius:10px;background:#eef2f7"
-             onerror="this.onerror=null;this.src='https://picsum.photos/seed/${p.article}/70/70'">
+             onerror="this.onerror=null;this.src='images/placeholder.svg'">
         <div class="flex-grow-1">
           <div class="fw-semibold small">${p.title}</div>
           <div class="text-muted small">${p.category}</div>

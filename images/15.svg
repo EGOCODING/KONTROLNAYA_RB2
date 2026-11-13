@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Нет фото: Умные часы Apple Watch Series 9">
+  <defs>
+    <linearGradient id="gapplewatchseries9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gapplewatchseries9)"/>
+  <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
+  <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
+  <g transform="translate(400 235)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+     stroke-opacity="0.55" stroke-width="7" stroke-linejoin="round">
+    <rect x="-58" y="-72" width="116" height="144" rx="30"/><rect x="-34" y="-146" width="68" height="76" rx="14"/><rect x="-34" y="70" width="68" height="76" rx="14"/>
+  </g>
+  <text x="400" y="72" text-anchor="middle" font-size="22" font-weight="600"
+        letter-spacing="3" fill="#ffffff" opacity="0.55">УМНЫЕ ЧАСЫ</text>
+  <text x="400" y="225" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Умные часы Apple Watch</text><text x="400" y="277" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Series 9</text>
+  <text x="400" y="552" text-anchor="middle" font-size="21" fill="#ffffff"
+        opacity="0.45">Фото товара</text>
+</svg>
