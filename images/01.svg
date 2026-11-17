@@ -8,13 +8,11 @@
   <rect width="800" height="600" fill="url(#ggalaxya55)"/>
   <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
   <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
-  <g transform="translate(400 235)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+  <g transform="translate(400 176) scale(0.82)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
      stroke-opacity="0.55" stroke-width="7" stroke-linejoin="round">
-    <rect x="-62" y="-102" width="124" height="204" rx="20"/><line x1="-18" y1="-80" x2="18" y2="-80" stroke-width="6"/>
+    <rect x="-52" y="-86" width="104" height="172" rx="17"/><line x1="-15" y1="-67" x2="15" y2="-67" stroke-width="5"/>
   </g>
-  <text x="400" y="72" text-anchor="middle" font-size="22" font-weight="600"
+  <text x="400" y="66" text-anchor="middle" font-size="20" font-weight="600"
         letter-spacing="3" fill="#ffffff" opacity="0.55">СМАРТФОНЫ</text>
-  <text x="400" y="250" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Смартфон Galaxy A55</text>
-  <text x="400" y="552" text-anchor="middle" font-size="21" fill="#ffffff"
-        opacity="0.45">Фото товара</text>
+  <text x="400" y="330" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">Смартфон Galaxy A55</text>
 </svg>

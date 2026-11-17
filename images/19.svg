@@ -8,13 +8,11 @@
   <rect width="800" height="600" fill="url(#gsamsungqledq60d)"/>
   <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
   <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
-  <g transform="translate(400 235)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+  <g transform="translate(400 176) scale(0.82)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
      stroke-opacity="0.55" stroke-width="7" stroke-linejoin="round">
-    <rect x="-132" y="-84" width="264" height="152" rx="8"/><line x1="0" y1="68" x2="0" y2="100" stroke-width="8"/><line x1="-52" y1="102" x2="52" y2="102" stroke-width="8"/>
+    <rect x="-111" y="-71" width="222" height="128" rx="7"/><line x1="0" y1="57" x2="0" y2="84" stroke-width="7"/><line x1="-44" y1="86" x2="44" y2="86" stroke-width="7"/>
   </g>
-  <text x="400" y="72" text-anchor="middle" font-size="22" font-weight="600"
+  <text x="400" y="66" text-anchor="middle" font-size="20" font-weight="600"
         letter-spacing="3" fill="#ffffff" opacity="0.55">ТЕЛЕВИЗОРЫ</text>
-  <text x="400" y="225" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Телевизор Samsung QLED</text><text x="400" y="277" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Q60D</text>
-  <text x="400" y="552" text-anchor="middle" font-size="21" fill="#ffffff"
-        opacity="0.45">Фото товара</text>
+  <text x="400" y="306" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">Телевизор Samsung QLED</text><text x="400" y="352" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">Q60D</text>
 </svg>

@@ -209,7 +209,7 @@ function renderProductDetail() {
     return;
   }
 
-  document.title = p.title + " - TechShop";
+  document.title = p.title + " — Техника у Бориса";
 
   const badge = p.badge
     ? ` <span class="badge bg-${p.badge.color}">${p.badge.text}</span>`
@@ -320,8 +320,8 @@ async function submitForm(form) {
 
   // Реальная отправка через Web3Forms.
   formData.append("access_key", WEB3FORMS_ACCESS_KEY);
-  formData.append("subject", "Новая заявка с TechShop");
-  formData.append("from_name", "TechShop");
+  formData.append("subject", "Новая заявка с сайта «Техника у Бориса»");
+  formData.append("from_name", "Техника у Бориса");
 
   try {
     const res = await fetch("https://api.web3forms.com/submit", {

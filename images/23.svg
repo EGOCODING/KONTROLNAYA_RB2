@@ -8,13 +8,11 @@
   <rect width="800" height="600" fill="url(#gsonyalphaa6700)"/>
   <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
   <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
-  <g transform="translate(400 235)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+  <g transform="translate(400 176) scale(0.82)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
      stroke-opacity="0.55" stroke-width="7" stroke-linejoin="round">
-    <rect x="-112" y="-62" width="224" height="146" rx="16"/><circle cx="0" cy="10" r="46" stroke-width="7"/><circle cx="0" cy="10" r="20" stroke-width="5"/><rect x="-30" y="-84" width="60" height="24" rx="7"/>
+    <rect x="-94" y="-52" width="188" height="123" rx="13"/><circle cx="0" cy="8" r="39" stroke-width="6"/><circle cx="0" cy="8" r="17" stroke-width="4"/><rect x="-25" y="-70" width="50" height="20" rx="6"/>
   </g>
-  <text x="400" y="72" text-anchor="middle" font-size="22" font-weight="600"
+  <text x="400" y="66" text-anchor="middle" font-size="20" font-weight="600"
         letter-spacing="3" fill="#ffffff" opacity="0.55">ФОТОАППАРАТЫ</text>
-  <text x="400" y="225" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">Фотоаппарат Sony Alpha</text><text x="400" y="277" text-anchor="middle" font-size="40" font-weight="700" fill="#ffffff" opacity="0.95">A6700</text>
-  <text x="400" y="552" text-anchor="middle" font-size="21" fill="#ffffff"
-        opacity="0.45">Фото товара</text>
+  <text x="400" y="306" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">Фотоаппарат Sony Alpha</text><text x="400" y="352" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">A6700</text>
 </svg>
