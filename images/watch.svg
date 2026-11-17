@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Нет фото: Умные часы">
+  <defs>
+    <linearGradient id="gwatch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gwatch)"/>
+  <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
+  <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
+  <g transform="translate(400 190) scale(0.95)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
+     stroke-opacity="0.5" stroke-width="7" stroke-linejoin="round">
+    <rect x="-49" y="-60" width="98" height="121" rx="25"/><rect x="-29" y="-123" width="58" height="64" rx="12"/><rect x="-29" y="59" width="58" height="64" rx="12"/>
+  </g>
+  <text x="400" y="66" text-anchor="middle" font-size="22" font-weight="600"
+        letter-spacing="3" fill="#ffffff" opacity="0.6">УМНЫЕ ЧАСЫ</text>
+  <text x="400" y="352" text-anchor="middle" font-size="58" font-weight="700"
+        fill="#ffffff" opacity="0.95">Умные часы</text>
+  <text x="400" y="540" text-anchor="middle" font-size="21" fill="#ffffff"
+        opacity="0.45">Фото товара</text>
+</svg>

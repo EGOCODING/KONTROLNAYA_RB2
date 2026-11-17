@@ -8,7 +8,7 @@
     "price": 34990,
     "oldPrice": 39990,
     "badge": "Хит",
-    "image": "images/01.svg",
+    "image": "images/smartphone.svg",
     "inStock": true,
     "rating": 4.8
   },
@@ -21,7 +21,7 @@
     "price": 79990,
     "oldPrice": null,
     "badge": "Новинка",
-    "image": "images/02.svg",
+    "image": "images/smartphone.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -34,7 +34,7 @@
     "price": 22990,
     "oldPrice": 25990,
     "badge": "Скидка",
-    "image": "images/03.svg",
+    "image": "images/smartphone.svg",
     "inStock": true,
     "rating": 4.6
   },
@@ -47,7 +47,7 @@
     "price": 64990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/04.svg",
+    "image": "images/smartphone.svg",
     "inStock": true,
     "rating": 4.7
   },
@@ -60,7 +60,7 @@
     "price": 129990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/05.svg",
+    "image": "images/smartphone.svg",
     "inStock": false,
     "rating": 4.9
   },
@@ -73,7 +73,7 @@
     "price": 109990,
     "oldPrice": 119990,
     "badge": "Скидка",
-    "image": "images/06.svg",
+    "image": "images/laptop.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -86,7 +86,7 @@
     "price": 54990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/07.svg",
+    "image": "images/laptop.svg",
     "inStock": true,
     "rating": 4.5
   },
@@ -99,7 +99,7 @@
     "price": 49990,
     "oldPrice": 57990,
     "badge": "Скидка",
-    "image": "images/08.svg",
+    "image": "images/laptop.svg",
     "inStock": true,
     "rating": 4.4
   },
@@ -112,7 +112,7 @@
     "price": 74990,
     "oldPrice": null,
     "badge": "Новинка",
-    "image": "images/09.svg",
+    "image": "images/laptop.svg",
     "inStock": true,
     "rating": 4.7
   },
@@ -125,7 +125,7 @@
     "price": 64990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/10.svg",
+    "image": "images/tablet.svg",
     "inStock": true,
     "rating": 4.8
   },
@@ -138,7 +138,7 @@
     "price": 59990,
     "oldPrice": 66990,
     "badge": "Скидка",
-    "image": "images/11.svg",
+    "image": "images/tablet.svg",
     "inStock": true,
     "rating": 4.6
   },
@@ -151,7 +151,7 @@
     "price": 19990,
     "oldPrice": null,
     "badge": "Хит",
-    "image": "images/12.svg",
+    "image": "images/headphones.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -164,7 +164,7 @@
     "price": 29990,
     "oldPrice": 34990,
     "badge": "Скидка",
-    "image": "images/13.svg",
+    "image": "images/headphones.svg",
     "inStock": true,
     "rating": 4.8
   },
@@ -177,7 +177,7 @@
     "price": 8990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/14.svg",
+    "image": "images/headphones.svg",
     "inStock": true,
     "rating": 4.4
   },
@@ -190,7 +190,7 @@
     "price": 39990,
     "oldPrice": null,
     "badge": "Новинка",
-    "image": "images/15.svg",
+    "image": "images/watch.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -203,7 +203,7 @@
     "price": 24990,
     "oldPrice": 27990,
     "badge": "Скидка",
-    "image": "images/16.svg",
+    "image": "images/watch.svg",
     "inStock": true,
     "rating": 4.6
   },
@@ -216,7 +216,7 @@
     "price": 19990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/17.svg",
+    "image": "images/watch.svg",
     "inStock": true,
     "rating": 4.5
   },
@@ -229,7 +229,7 @@
     "price": 139990,
     "oldPrice": 159990,
     "badge": "Скидка",
-    "image": "images/18.svg",
+    "image": "images/tv.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -242,7 +242,7 @@
     "price": 54990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/19.svg",
+    "image": "images/tv.svg",
     "inStock": true,
     "rating": 4.5
   },
@@ -255,7 +255,7 @@
     "price": 59990,
     "oldPrice": null,
     "badge": "Хит",
-    "image": "images/20.svg",
+    "image": "images/console.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -268,7 +268,7 @@
     "price": 54990,
     "oldPrice": 59990,
     "badge": "Скидка",
-    "image": "images/21.svg",
+    "image": "images/console.svg",
     "inStock": true,
     "rating": 4.7
   },
@@ -281,7 +281,7 @@
     "price": 64990,
     "oldPrice": null,
     "badge": "Новинка",
-    "image": "images/22.svg",
+    "image": "images/console.svg",
     "inStock": false,
     "rating": 4.8
   },
@@ -294,7 +294,7 @@
     "price": 139990,
     "oldPrice": null,
     "badge": null,
-    "image": "images/23.svg",
+    "image": "images/camera.svg",
     "inStock": true,
     "rating": 4.9
   },
@@ -307,7 +307,7 @@
     "price": 64990,
     "oldPrice": 69990,
     "badge": "Скидка",
-    "image": "images/24.svg",
+    "image": "images/camera.svg",
     "inStock": true,
     "rating": 4.6
   },
@@ -320,7 +320,7 @@
     "price": 39990,
     "oldPrice": null,
     "badge": "Хит",
-    "image": "images/25.svg",
+    "image": "images/camera.svg",
     "inStock": true,
     "rating": 4.8
   }
