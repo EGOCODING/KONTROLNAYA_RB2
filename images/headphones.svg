@@ -1,21 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Нет фото: Наушники">
-  <defs>
-    <linearGradient id="gheadphones" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#dc2626"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="600" fill="url(#gheadphones)"/>
-  <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
-  <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
-  <g transform="translate(400 190) scale(0.95)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
-     stroke-opacity="0.5" stroke-width="7" stroke-linejoin="round">
-    <path d="M-77 29 A77 77 0 0 1 77 29" stroke-width="7"/><rect x="-101" y="22" width="44" height="79" rx="20"/><rect x="57" y="22" width="44" height="79" rx="20"/>
-  </g>
-  <text x="400" y="66" text-anchor="middle" font-size="22" font-weight="600"
-        letter-spacing="3" fill="#ffffff" opacity="0.6">НАУШНИКИ</text>
-  <text x="400" y="352" text-anchor="middle" font-size="58" font-weight="700"
-        fill="#ffffff" opacity="0.95">Наушники</text>
-  <text x="400" y="540" text-anchor="middle" font-size="21" fill="#ffffff"
-        opacity="0.45">Фото товара</text>
+  <rect width="800" height="600" fill="#2563eb"/>
+  <text x="400" y="300" text-anchor="middle" dominant-baseline="central"
+        font-size="64" font-weight="600" fill="#ffffff">Наушники</text>
 </svg>

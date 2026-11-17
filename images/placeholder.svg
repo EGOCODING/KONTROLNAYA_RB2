@@ -1,21 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Нет фото: Нет фото">
-  <defs>
-    <linearGradient id="gplaceholder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#64748b"/>
-      <stop offset="100%" stop-color="#334155"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="600" fill="url(#gplaceholder)"/>
-  <circle cx="712" cy="86" r="190" fill="#ffffff" opacity="0.06"/>
-  <circle cx="86" cy="536" r="130" fill="#ffffff" opacity="0.05"/>
-  <g transform="translate(400 190) scale(0.95)" fill="rgba(255,255,255,0.10)" stroke="#ffffff"
-     stroke-opacity="0.5" stroke-width="7" stroke-linejoin="round">
-    <rect x="-94" y="-66" width="188" height="140" rx="14"/><circle cx="-30" cy="0" r="20" stroke-width="6"/><path d="M-60 50 L-10 -10 L20 22 L45 0 L60 50 Z"/>
-  </g>
-  <text x="400" y="66" text-anchor="middle" font-size="22" font-weight="600"
-        letter-spacing="3" fill="#ffffff" opacity="0.6">НЕТ ФОТО</text>
-  <text x="400" y="352" text-anchor="middle" font-size="58" font-weight="700"
-        fill="#ffffff" opacity="0.95">Нет фото</text>
-  <text x="400" y="540" text-anchor="middle" font-size="21" fill="#ffffff"
-        opacity="0.45">Фото товара</text>
+  <rect width="800" height="600" fill="#2563eb"/>
+  <text x="400" y="300" text-anchor="middle" dominant-baseline="central"
+        font-size="64" font-weight="600" fill="#ffffff">Нет фото</text>
 </svg>
